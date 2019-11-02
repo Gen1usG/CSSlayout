@@ -1,0 +1,54 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+
+/* 双飞翼布局 */
+#doubleWingLayout{
+    max-width: 800px;
+    display: flex;
+    margin:0 auto;
+}
+#doubleWingLayout .dw-left{
+    min-width: 200px;
+    background-color: #333;
+
+}
+
+#doubleWingLayout .dw-middle{
+    height: 400px;
+    background-color: #666;
+    flex-grow:1;
+}
+
+#doubleWingLayout .dw-right{
+    min-width: 200px;
+    background-color: #999;
+}
+
+/* 平均布局 */
+#averageLayout{
+    margin:10px auto;
+    max-width:800px;
+}
+
+#averageLayout ul{
+    display: flex;
+    flex-wrap:wrap;
+    margin-right:-12px;
+}
+
+#averageLayout li{
+    width: 191px;
+    height: 192px;
+    background-color: green;
+    border:8px solid pink;
+    margin-right:12px;
+    margin-top:10px;
+}
+
