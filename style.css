@@ -32,6 +32,7 @@ ul,li{
 }
 
 /* 平均布局 */
+/* 关注负margin的使用 */
 #averageLayout{
     margin:10px auto;
     max-width:800px;
